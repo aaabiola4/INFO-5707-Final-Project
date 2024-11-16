@@ -215,6 +215,32 @@ VALUES
 (1021, 'Stock Increase', 55, '2024-01-22 09:45:00', 102),
 (1022, 'Stock Decrease', 12, '2024-01-23 18:10:00', 103);
 
+INSERT INTO retail.Users (Username, Password_Hash, Role)
+VALUES
+('johnmatthews', 'hash_1a2b3c4d5e', 'Admin'),
+('janeroberts', 'hash_2b3c4d5e6f', 'Manager'),
+('petermarks', 'hash_3c4d5e6f7g', 'Clerk'),
+('wesleyjohns', 'hash_4d5e6f7g8h', 'Admin'),
+('timothydutton', 'hash_5e6f7g8h9i', 'Manager'),
+('tracysmith', 'hash_6f7g8h9i0j', 'Clerk'),
+('sarahdole', 'hash_7g8h9i0j1k', 'Manager'),
+('peterroney', 'hash_8h9i0j1k2l', 'Clerk'),
+('ronaldoneal', 'hash_9i0j1k2l3m', 'Admin'),
+('rachelharris', 'hash_0j1k2l3m4n', 'Manager'),
+('rossclinton', 'hash_1k2l3m4n5o', 'Clerk'),
+('monicahiwatt', 'hash_2l3m4n5o6p', 'Admin'),
+('edmunoz', 'hash_3m4n5o6p7q', 'Clerk'),
+('mattrogers', 'hash_4n5o6p7q8r', 'Manager'),
+('kylebaxter', 'hash_5o6p7q8r9s', 'Admin'),
+('mandygalleher', 'hash_6p7q8r9s0t', 'Clerk'),
+('charlesbobby', 'hash_7q8r9s0t1u', 'Manager'),
+('johncarlton', 'hash_8r9s0t1u2v', 'Admin'),
+('carloshernandez', 'hash_9s0t1u2v3w', 'Clerk'),
+('stephendiaz', 'hash_0t1u2v3w4x', 'Manager'),
+('patrickmartins', 'hash_1u2v3w4x5y', 'Admin'),
+('janeunderhill', 'hash_2v3w4x5y6z', 'Manager');
+
+
 
 
    
