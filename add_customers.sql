@@ -87,6 +87,33 @@ VALUES
     (118, 1020, '2024-01-10', 45.00, 'Cash'),
     (119, 1021, '2022-12-11', 100.00, 'Credit Card'),
     (120, 1022, '2024-10-01', 300.00, 'PayPal');
+
+   INSERT INTO retail.Sales_Items (Sale_Item_ID, Sale_ID, Product_ID, Quantity, Item_Total)
+VALUES
+(1, 1, 1000, 2, 99.98), -- Sale 1, Product 1000, 2 items
+(2, 2, 1001, 1, 19.99), -- Sale 2, Product 1001, 1 item
+(3, 3, 1002, 3, 45.75), -- Sale 3, Product 1002, 3 items
+(4, 4, 1003, 1, 199.99), -- Sale 4, Product 1003, 1 item
+(5, 5, 1004, 4, 139.96), -- Sale 5, Product 1004, 4 items
+(6, 6, 1005, 5, 124.95), -- Sale 6, Product 1005, 5 items
+(7, 7, 1006, 2, 59.98), -- Sale 7, Product 1006, 2 items
+(8, 8, 1007, 1, 59.99), -- Sale 8, Product 1007, 1 item
+(9, 9, 1008, 1, 74.99), -- Sale 9, Product 1008, 1 item
+(10, 10, 1009, 3, 134.97), -- Sale 10, Product 1009, 3 items
+(11, 11, 1010, 2, 139.98), -- Sale 11, Product 1010, 2 items
+(12, 12, 1011, 1, 29.99), -- Sale 12, Product 1011, 1 item
+(13, 13, 1012, 1, 149.99), -- Sale 13, Product 1012, 1 item
+(14, 14, 1013, 4, 79.96), -- Sale 14, Product 1013, 4 items
+(15, 15, 1014, 3, 89.97), -- Sale 15, Product 1014, 3 items
+(16, 16, 1015, 2, 69.98), -- Sale 16, Product 1015, 2 items
+(17, 17, 1016, 1, 89.99), -- Sale 17, Product 1016, 1 item
+(18, 18, 1017, 3, 74.97), -- Sale 18, Product 1017, 3 items
+(19, 19, 1018, 1, 79.99), -- Sale 19, Product 1018, 1 item
+(20, 20, 1019, 2, 79.98), -- Sale 20, Product 1019, 2 items
+(21, 21, 1020, 3, 59.97), -- Sale 21, Product 1020, 3 items
+(22, 22, 1021, 1, 34.99); -- Sale 22, Product 1021, 1 item
+
+   
     
     
     
