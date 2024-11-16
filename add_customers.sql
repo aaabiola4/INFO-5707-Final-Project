@@ -113,6 +113,33 @@ VALUES
 (21, 21, 1020, 3, 59.97), -- Sale 21, Product 1020, 3 items
 (22, 22, 1021, 1, 34.99); -- Sale 22, Product 1021, 1 item
 
+
+   INSERT INTO retail.Suppliers (Supplier_ID, Supplier_Name, Contact_Name, Phone, Email)
+VALUES
+(1, 'Apparel Group', 'John Smith', '123-456-7890', 'john.smith@apparelgroup.com'),
+(2, 'Urban Threads', 'Emily Davis', '234-567-8901', 'emily.davis@urbanthreads.com'),
+(3, 'Fashion Forward', 'Michael Brown', '345-678-9012', 'michael.brown@fashionforward.com'),
+(4, 'Trendsetters Inc.', 'Laura Wilson', '456-789-0123', 'laura.wilson@trendsetters.com'),
+(5, 'Style Supply Co.', 'David Johnson', '567-890-1234', 'david.johnson@stylesupply.com'),
+(6, 'Global Garments', 'Sophia Martinez', '678-901-2345', 'sophia.martinez@globalgarments.com'),
+(7, 'Modern Vogue', 'James Lee', '789-012-3456', 'james.lee@modernvogue.com'),
+(8, 'Premium Textiles', 'Olivia Taylor', '890-123-4567', 'olivia.taylor@premiumtextiles.com'),
+(9, 'Elite Wearhouse', 'Ethan White', '901-234-5678', 'ethan.white@elitewearhouse.com'),
+(10, 'Fashion Essentials', 'Emma Harris', '012-345-6789', 'emma.harris@fashionessentials.com'),
+(11, 'Clothier Collective', 'Noah Walker', '123-456-7891', 'noah.walker@clothiercollective.com'),
+(12, 'Wardrobe World', 'Isabella Young', '234-567-8902', 'isabella.young@wardrobeworld.com'),
+(13, 'Style Hub', 'Liam King', '345-678-9013', 'liam.king@stylehub.com'),
+(14, 'Trend Supply', 'Ava Wright', '456-789-0124', 'ava.wright@trendsupply.com'),
+(15, 'Global Apparel Co.', 'Lucas Hall', '567-890-1235', 'lucas.hall@globalapparel.com'),
+(16, 'New Age Fashion', 'Mia Adams', '678-901-2346', 'mia.adams@newagefashion.com'),
+(17, 'Chic Suppliers', 'Charlotte Nelson', '789-012-3457', 'charlotte.nelson@chicsuppliers.com'),
+(18, 'NextGen Wear', 'Jack Carter', '890-123-4568', 'jack.carter@nextgenwear.com'),
+(19, 'Modern Looks', 'Amelia Mitchell', '901-234-5679', 'amelia.mitchell@modernlooks.com'),
+(20, 'Premium Apparel', 'Benjamin Perez', '012-345-6780', 'benjamin.perez@premiumapparel.com'),
+(21, 'The Style Source', 'Harper Scott', '123-456-7892', 'harper.scott@stylesource.com'),
+(22, 'Urban Outfitters', 'Alexander Morris', '234-567-8903', 'alexander.morris@urbanoutfitters.com');
+
+
    
     
     
