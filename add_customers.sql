@@ -139,6 +139,31 @@ VALUES
 (21, 'The Style Source', 'Harper Scott', '123-456-7892', 'harper.scott@stylesource.com'),
 (22, 'Urban Outfitters', 'Alexander Morris', '234-567-8903', 'alexander.morris@urbanoutfitters.com');
 
+   INSERT INTO retail.Purchase_Orders (PO_ID, Supplier_ID, Order_Date, Status)
+VALUES
+(1, 1, '2024-11-01', 'Pending'),
+(2, 2, '2024-11-02', 'Shipped'),
+(3, 3, '2024-11-03', 'Delivered'),
+(4, 4, '2024-11-04', 'Pending'),
+(5, 5, '2024-11-05', 'Cancelled'),
+(6, 6, '2024-11-06', 'Pending'),
+(7, 7, '2024-11-07', 'Shipped'),
+(8, 8, '2024-11-08', 'Delivered'),
+(9, 9, '2024-11-09', 'Pending'),
+(10, 10, '2024-11-10', 'Shipped'),
+(11, 11, '2024-11-11', 'Delivered'),
+(12, 12, '2024-11-12', 'Cancelled'),
+(13, 13, '2024-11-13', 'Pending'),
+(14, 14, '2024-11-14', 'Shipped'),
+(15, 15, '2024-11-15', 'Delivered'),
+(16, 16, '2024-11-16', 'Pending'),
+(17, 17, '2024-11-17', 'Cancelled'),
+(18, 18, '2024-11-18', 'Pending'),
+(19, 19, '2024-11-19', 'Shipped'),
+(20, 20, '2024-11-20', 'Delivered'),
+(21, 21, '2024-11-21', 'Pending'),
+(22, 22, '2024-11-22', 'Shipped');
+
 
    
     
