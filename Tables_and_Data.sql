@@ -115,6 +115,12 @@ VALUES
 (1024, 'Bill', 'Yu', 'billyu@gmail.com', '4708738723', 700, '2021-11-15'),
 (1025, 'Gladys', 'Lee', 'leeglady@yahoo.com', '2149428823', 100, '2022-03-15'),
 (1026, 'Peter', 'Walsh', 'walshpet@aol.com', '4694567770', 500, '2021-01-11');
+(1027, 'Alice', 'Morgan', 'alice.morgan@example.com', '9876543210', 150, '2023-10-01'),
+(1028, 'Brian', 'Adams', 'brian.adams@example.com', '1234567890', 250, '2024-02-14'),
+(1029, 'Catherine', 'Taylor', 'cat.taylor@example.com', '1122334455', 300, '2024-03-20'),
+(1030, 'Derek', 'Wilson', 'derek.wilson@example.com', '6677889900', 400, '2022-08-12'),
+(1031, 'Emily', 'Clark', 'emily.clark@example.com', '9988776655', 500, '2021-07-19'),
+(1032, 'Frank', 'Green', 'frank.green@example.com', '5544332211', 600, '2023-05-23');
 
 -- Set AUTO_INCREMENT for Products Table
 ALTER TABLE retail.Products AUTO_INCREMENT = 1024;
@@ -146,6 +152,16 @@ VALUES
 (1021, 'Denim Shorts', 'Casual denim shorts with rolled hems', 34.99, 120, 25, '2024-02-11'),
 (1022, 'Slip Dress', 'Sleek and simple slip dress', 49.99, 50, 10, '2023-08-10'),
 (1023, 'Canvas Sneakers', 'Lightweight sneakers for everyday wear', 59.99, 70, 15, '2023-10-05');
+(1024, 'Cotton T-Shirt', 'High-quality cotton T-shirt available in multiple sizes.', 12.99, 500, 50, '2023-10-01'),
+(1025, 'Running Shoes', 'Lightweight running shoes with superior grip and comfort.', 49.99, 200, 20, '2023-09-15'),
+(1026, 'Backpack', 'Durable and spacious backpack suitable for travel and work.', 34.99, 150, 10, '2023-08-20'),
+(1027, 'Sunglasses', 'UV-protection polarized sunglasses with stylish frames.', 19.99, 300, 25, '2023-07-10'),
+(1028, 'Reusable Water Bottle', 'Eco-friendly stainless steel water bottle, 1L capacity.', 14.99, 400, 30, '2023-06-05'),
+(1029, 'Yoga Mat', 'Non-slip yoga mat with extra cushioning for comfort.', 25.99, 100, 15, '2023-05-12'),
+(1030, 'Desk Organizer', 'Compact and modern desk organizer with multiple compartments.', 18.99, 250, 20, '2023-04-18'),
+(1031, 'Wireless Earbuds', 'Compact Bluetooth earbuds with noise cancellation.', 59.99, 120, 10, '2023-03-25'),
+(1032, 'Laptop Stand', 'Adjustable aluminum laptop stand for better ergonomics.', 29.99, 80, 5, '2023-02-15'),
+(1033, 'Smartwatch', 'Water-resistant smartwatch with fitness tracking features.', 99.99, 60, 10, '2023-01-30');
 
 -- Set AUTO_INCREMENT for Sales Table
 ALTER TABLE retail.Sales AUTO_INCREMENT = 121;
@@ -174,6 +190,16 @@ VALUES
 (118, 1019, '2023-11-10', 350.75, 'Debit Card'),
 (119, 1020, '2024-01-10', 45.00, 'Cash'),
 (120, 1021, '2022-12-11', 100.00, 'Credit Card');
+(121, 1022, '2023-11-05', 150.75, 'Credit Card'),
+(122, 1023, '2024-01-15', 300.50, 'Debit Card'),
+(123, 1024, '2023-12-20', 120.00, 'PayPal'),
+(124, 1025, '2023-11-10', 450.25, 'Cash'),
+(125, 1026, '2024-02-09', 90.00, 'Credit Card'),
+(126, 1027, '2023-08-15', 220.99, 'Debit Card'),
+(127, 1028, '2023-09-25', 310.40, 'PayPal'),
+(128, 1029, '2024-03-11', 125.00, 'Cash'),
+(129, 1030, '2023-10-19', 175.50, 'Credit Card'),
+(130, 1031, '2023-07-04', 250.00, 'Debit Card');
 
 -- Set AUTO_INCREMENT for Sales_Items Table
 ALTER TABLE retail.Sales_Items AUTO_INCREMENT = 23;
@@ -203,6 +229,17 @@ VALUES
 (20, 119, 1019, 2, 79.98),
 (21, 120, 1020, 3, 59.97),
 (22, 120, 1021, 1, 34.99);
+(23, 121, 1022, 5, 149.95),
+(24, 121, 1023, 2, 99.98),
+(25, 122, 1024, 1, 329.99),
+(26, 122, 1025, 4, 59.96),
+(27, 123, 1026, 3, 89.97),
+(28, 123, 1027, 2, 139.98),
+(29, 124, 1028, 1, 400.00),
+(30, 124, 1029, 2, 59.98),
+(31, 125, 1030, 6, 239.94),
+(32, 125, 1031, 3, 74.97),
+(33, 126, 1032, 2, 179.98),
 
 -- Set AUTO_INCREMENT for Suppliers Table
 ALTER TABLE retail.Suppliers AUTO_INCREMENT = 23;
@@ -232,6 +269,18 @@ VALUES
 (20, 'Premium Apparel', 'Benjamin Perez', '012-345-6780', 'benjamin.perez@premiumapparel.com'),
 (21, 'The Style Source', 'Harper Scott', '123-456-7892', 'harper.scott@stylesource.com'),
 (22, 'Urban Outfitters', 'Alexander Morris', '234-567-8903', 'alexander.morris@urbanoutfitters.com');
+(23, 'Elegant Threads', 'Ella Baker', '345-678-9014', 'ella.baker@elegantthreads.com'),
+(24, 'Fashion Unlimited', 'Henry Turner', '456-789-0125', 'henry.turner@fashionunlimited.com'),
+(25, 'Top Tier Wear', 'Sofia Rivera', '567-890-1236', 'sofia.rivera@toptierwear.com'),
+(26, 'Global Outfitters', 'Matthew Lopez', '678-901-2347', 'matthew.lopez@globaloutfitters.com'),
+(27, 'The Wardrobe Co.', 'Emily Morgan', '789-012-3458', 'emily.morgan@wardrobeco.com'),
+(28, 'Style Depot', 'Andrew Reed', '890-123-4569', 'andrew.reed@styledepot.com'),
+(29, 'Textile Innovations', 'Victoria Powell', '901-234-5670', 'victoria.powell@textileinnovations.com'),
+(30, 'Metro Fashions', 'Evelyn Torres', '012-345-6781', 'evelyn.torres@metrofashions.com'),
+(31, 'Clothing Solutions', 'Daniel Sanders', '123-456-7893', 'daniel.sanders@clothingsolutions.com'),
+(32, 'Luxury Line', 'Zoey Wood', '234-567-8904', 'zoey.wood@luxuryline.com'),
+(33, 'TrendShapers', 'Joseph Brooks', '345-678-9015', 'joseph.brooks@trendshapers.com'),
+(34, 'Style Networks', 'Abigail Jenkins', '456-789-0126', 'abigail.jenkins@stylenetworks.com'),
 
 -- Set AUTO_INCREMENT for Purchase Orders Table
 ALTER TABLE retail.Purchase_Orders AUTO_INCREMENT = 23;
@@ -261,6 +310,19 @@ VALUES
 (20, 20, '2024-11-20', 'Delivered'),
 (21, 21, '2024-11-21', 'Pending'),
 (22, 22, '2024-11-22', 'Shipped');
+(23, 23, '2024-11-23', 'Delivered'),
+(24, 24, '2024-11-24', 'Cancelled'),
+(25, 25, '2024-11-25', 'Pending'),
+(26, 26, '2024-11-26', 'Shipped'),
+(27, 27, '2024-11-27', 'Delivered'),
+(28, 28, '2024-11-28', 'Cancelled'),
+(29, 29, '2024-11-29', 'Pending'),
+(30, 30, '2024-11-30', 'Shipped'),
+(31, 31, '2024-12-01', 'Delivered'),
+(32, 32, '2024-12-02', 'Cancelled'),
+(33, 33, '2024-12-03', 'Pending'),
+(34, 34, '2024-12-04', 'Shipped'),
+(35, 35, '2024-12-05', 'Delivered'),
 
 -- Set AUTO_INCREMENT for PO_Items Table
 ALTER TABLE retail.PO_Items AUTO_INCREMENT = 23;
@@ -290,6 +352,20 @@ VALUES
 (20, 7, 1019, 15, 39.99),
 (21, 7, 1020, 10, 19.99),
 (22, 8, 1021, 12, 34.99);
+(23, 8, 1022, 10, 49.99),
+(24, 8, 1023, 15, 19.99),
+(25, 9, 1023, 8, 39.99),
+(26, 9, 1024, 5, 199.99),
+(27, 9, 1025, 12, 34.99),
+(28, 10, 1026, 20, 24.99),
+(29, 10, 1027, 7, 29.99),
+(30, 11, 1028, 6, 59.99),
+(31, 11, 1029, 4, 74.99),
+(32, 12, 1030, 10, 44.99),
+(33, 12, 1031, 5, 69.99),
+(34, 13, 1032, 14, 29.99),
+(35, 13, 1033, 3, 149.99),
+(36, 14, 1034, 18, 19.99),
 
 -- Set AUTO_INCREMENT for Inventory_Logs Table
 ALTER TABLE retail.Inventory_Logs AUTO_INCREMENT = 23;
@@ -319,6 +395,20 @@ VALUES
 (20, 1019, 'Stock Decrease', 35, '2024-01-20 17:30:00', 110),
 (21, 1020, 'Stock Adjustment', 6, '2024-01-21 15:15:00', 101),
 (22, 1021, 'Stock Increase', 55, '2024-01-22 09:45:00', 102);
+(23, 1022, 'Stock Decrease', 28, '2024-01-23 10:30:00', 103),
+(24, 1023, 'Stock Adjustment', 9, '2024-01-24 13:00:00', 104),
+(25, 1024, 'Stock Increase', 35, '2024-01-25 08:15:00', 105),
+(26, 1000, 'Stock Decrease', 18, '2024-01-26 11:45:00', 106),
+(27, 1001, 'Stock Adjustment', 11, '2024-01-27 14:30:00', 107),
+(28, 1002, 'Stock Increase', 40, '2024-01-28 09:50:00', 108),
+(29, 1003, 'Stock Decrease', 22, '2024-01-29 12:10:00', 109),
+(30, 1004, 'Stock Adjustment', 5, '2024-01-30 16:20:00', 110),
+(31, 1005, 'Stock Increase', 30, '2024-01-31 07:30:00', 101),
+(32, 1006, 'Stock Decrease', 16, '2024-02-01 18:00:00', 102),
+(33, 1007, 'Stock Adjustment', 14, '2024-02-02 15:30:00', 103),
+(34, 1008, 'Stock Increase', 50, '2024-02-03 09:00:00', 104),
+(35, 1009, 'Stock Decrease', 20, '2024-02-04 13:45:00', 105),
+(36, 1010, 'Stock Adjustment', 4, '2024-02-05 17:10:00', 106),
 
 -- Set AUTO_INCREMENT for Users Table
 ALTER TABLE retail.Users AUTO_INCREMENT = 23;
@@ -348,6 +438,19 @@ VALUES
 (20, 'stephendiaz', 'hash_0t1u2v3w4x', 'Manager'),
 (21, 'patrickmartins', 'hash_1u2v3w4x5y', 'Admin'),
 (22, 'janeunderhill', 'hash_2v3w4x5y6z', 'Manager');
-
+(23, 'rogerusher', 'hash_3v4w5x6y7a', 'Clerk'),
+(24, 'hillaryjosh', 'hash_4w5x6y7a8b', 'Admin'),
+(25, 'billyu', 'hash_5x6y7a8b9c', 'Manager'),
+(26, 'gladyslee', 'hash_6y7a8b9c0d', 'Clerk'),
+(27, 'walshpet', 'hash_7a8b9c0d1e', 'Admin'),
+(28, 'sharonwade', 'hash_8b9c0d1e2f', 'Manager'),
+(29, 'tomrichards', 'hash_9c0d1e2f3g', 'Clerk'),
+(30, 'susanmiller', 'hash_0d1e2f3g4h', 'Admin'),
+(31, 'lindarichards', 'hash_1e2f3g4h5i', 'Manager'),
+(32, 'michaelsmith', 'hash_2f3g4h5i6j', 'Clerk'),
+(33, 'brianscott', 'hash_3g4h5i6j7k', 'Admin'),
+(34, 'danieljohnson', 'hash_4h5i6j7k8l', 'Manager'),
+(35, 'rebeccawilson', 'hash_5i6j7k8l9m', 'Clerk'),
+(36, 'alexandermorris', 'hash_6j7k8l9m0n', 'Admin'),
 
 
